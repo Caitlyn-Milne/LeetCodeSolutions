@@ -1,5 +1,5 @@
 /*
-Prioty Queue
+PriotyQueue
 
 This solutions uses c# in built prioty queue to act as a max heap.
 by default priority queue acts like a min heap,
