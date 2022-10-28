@@ -19,7 +19,7 @@ fun rotateClone(nums: IntArray, k: Int): Unit {
 //swap hold and i
 //at the end put hold into the start of the array 
 
-//time complexity O(n * k)
+//time complexity O(n * k) or O(n^2)
 //space complexity O(1)
 fun rotateSwaps(nums: IntArray, _k: Int): Unit {
     var k = _k % nums.size
