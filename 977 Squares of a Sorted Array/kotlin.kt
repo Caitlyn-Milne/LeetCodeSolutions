@@ -71,9 +71,9 @@ fun merge(nums:IntArray, pivot: Int) : IntArray{
 //space O(n)
 fun sortedSquaresTwoPointers(nums: IntArray): IntArray {
     var left = 0
-    var right = nums.size -1
+    var right = nums.size - 1
     val result = IntArray(nums.size)
-    var i = nums.size -1
+    var i = nums.size - 1
     while(left <= right){
         if(Math.abs(nums[left]) >= Math.abs(nums[right])){
             result[i--] = nums[left] * nums[left]
