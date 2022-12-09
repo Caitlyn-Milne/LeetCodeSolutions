@@ -22,8 +22,6 @@ fun subsets1(nums: IntArray): List<List<Int>> {
 //solution 2
 //create an empty subset
 //foreach num, create a new subsets for each subset with that number included
-//leet code says this way you need to use O(nx2^n) space to avoid concurrency issues, you dont,
-//you use a backwards for loop instead
 //time O(n x 2^n)
 //space O(n x 2^n) if output is included or O(n) for operations
 fun subsets2(nums: IntArray): List<List<Int>> {
